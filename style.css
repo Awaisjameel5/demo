@@ -10,6 +10,7 @@
     margin: 20px;
     border: 2px solid black;
     padding: 2rem;
+    background-color: white;
 }
 
 header{
@@ -58,14 +59,29 @@ a:hover{
     padding: 5px;
     margin-left: 4px;
     background-color: white;
+    transition-duration: 2s;
+    transition-property: color,background-color,border;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+
+}
+
+.navbar button:hover{
+    background-color: blue;
+    color: white;
+    border: none;
 }
 
 main h1{
     font-size: 40px;
     margin-top: 180px;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
+main h1:hover{
+    color: blue;
+}
 main p{
     font-size: 20px;
     margin-bottom: 20px;
@@ -85,9 +101,31 @@ main button{
     border: none;
     padding-left: 20px;
     padding-right: 20px;
+    cursor: pointer;
+    transition-duration: 2s;
+    transition-delay: 0s;
+    transition-property: color,border,background-color;
+    transition-timing-function: ease-out;
+
+}
+
+.one:hover{
+    background-color: black;
+    color: white;
 }
 
 .two{
     padding-left: 20px;
     padding-right: 20px;
+    cursor: pointer;
+    transition-delay: 0s;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+    transition-property: color, background-color,border;
+}
+
+.two:hover{
+    color: white;
+    background-color: red;
+    border: none;
 }
