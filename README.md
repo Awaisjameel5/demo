@@ -1,3 +1,3 @@
 # demo
 This is a demo repository.
-<br>Author: Awais jameel
+<br>Author: (Awais jameel)
